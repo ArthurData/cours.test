@@ -35,8 +35,8 @@ jobs:
         with:
           path: select/index.qmd
 
-      - name: Move CNAME to _slides folder
-        run: mv CNAME _slides/CNAME || true
+      - name: Create CNAME to _slides folder
+        run: echo 'test.breant.art' > _slides/CNAME
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
