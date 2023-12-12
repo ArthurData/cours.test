@@ -34,6 +34,9 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: select/index.qmd
+
+      - name: Move CNAME to _slides folder
+        run: mv CNAME _slides/CNAME || true
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
