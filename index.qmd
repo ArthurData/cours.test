@@ -4,10 +4,10 @@ format:
   lille-univ-revealjs: default
 author: Arthur Bréant
 date: last-modified
-self-contained: true
+
 ---
 
-# Introduction 
+# Introduction 2
 
 ## Intro
 
