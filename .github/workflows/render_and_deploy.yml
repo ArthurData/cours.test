@@ -30,3 +30,9 @@ jobs:
         with:
           target: gh-pages
           path: index.qmd
+
+      - name: Render and Publish Quarto select
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          path: select/index.qmd
