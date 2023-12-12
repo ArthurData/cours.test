@@ -6,7 +6,7 @@ author: Arthur Bréant
 date: last-modified
 ---
 
-# Introduction 3
+# Introduction 4
 
 ## Intro
 
@@ -26,3 +26,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 #| echo: true
 print("hello world")
 ```
+
+## Goodbye
